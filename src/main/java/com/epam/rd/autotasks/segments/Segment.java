@@ -57,7 +57,7 @@ class Segment {
         k1 = (y2-y1)/(x2-x1);
         b1 = (x1*y1-x1*y2)/(x2-x1) + y1;
 
-        k2 = (y4-y3)/(x4-x3);;
+        k2 = (y4-y3)/(x4-x3);
         b2 = (x3*y3-x3*y4)/(x4-x3) + y3;
 
         return new Point(
